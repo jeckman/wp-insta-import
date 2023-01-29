@@ -1,8 +1,8 @@
 # wp-insta-import
-Script for use with wp-cli eval-file to import a json formatted instagram export 
+Script for use with [wp-cli eval-file](https://developer.wordpress.org/cli/commands/eval-file/) to import a json formatted instagram export 
 
 Usage:
-- Request and download your instagram export from instagram
+- Request and download your instagram export from instagram ([directions](https://help.instagram.com/181231772500920)]
 - unzip, rename the root folder to "insta" and upload to your WordPress root 
 - set author, categories, limit, and post status in the first few lines of insta.php 
 - run "wp eval-file insta.php" in the same directory that "insta" folder is located in
