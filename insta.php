@@ -134,7 +134,7 @@ foreach ($json_data as $media_item) {
 
 
 	/* test here just to limit how many at a time */
-	if ($count > $limit) {
+	if ($count == $limit) {
 		exit();
 	}
 }  // end the loop of all menu items
