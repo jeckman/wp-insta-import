@@ -8,10 +8,11 @@ Usage:
 - run "wp eval-file insta.php" in the same directory that "insta" folder is located in
 
 Notes:
-- Only does "posts" right now. 
+- Only imports Instagram "posts" right now (not "stories" or "reels"). 
+- Creates WordPress posts for Instagram posts (does not create a custom post type). 
 - Copies the media into the WP Upload directory, attaches them to the posts, sets the first attachment as the featured image (if it is an image). 
-- Puts all posts in one category
-- If the post has no title, adds the date ("Sunday, January 29th" style) as a title
+- Puts all posts in one category. 
+- If the post has no title, adds the date ("Sunday, January 29th" style) as a title.
 - Parses hashtags in the instagram post content and makes them tags on WordPress posts, stripping them from the body 
 
 Caution: If you have anything set to publicize when you make new posts, use caution in publishing many posts at once! 
