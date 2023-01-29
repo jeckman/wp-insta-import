@@ -8,6 +8,7 @@
 $author = 3;
 $categories = array(103);
 $limit = 50;
+$post_status = 'draft';
 
 /* open the json file */
 $json=file_get_contents('insta/content/posts_1.json');
@@ -69,7 +70,7 @@ foreach ($json_data as $media_item) {
 		'post_title' => $short_title[0],
 		'post_content' => $title,
 		'post_category' => $categories,
-		'post_status' => 'draft',
+		'post_status' => $post_status,
 		'post_author' => $author,
 		'post_date' => $post_date,
 		'post_date_gmt' => $post_date_gmt,
