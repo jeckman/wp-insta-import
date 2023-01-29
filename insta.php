@@ -75,7 +75,7 @@ foreach ($json_data as $media_item) {
 		'post_date' => $post_date,
 		'post_date_gmt' => $post_date_gmt,
 		'post_type' => 'post',
-		'tag_input' => $hashtags
+		'tags_input' => $hashtags
 	);
 
 	$post_id = wp_insert_post( $wordpress_post); 
