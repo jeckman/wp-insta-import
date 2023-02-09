@@ -5,10 +5,10 @@
  * set "limit" so it only does a few at a time 
  */ 
 
-$author = 3;
-$categories = array(103);
-$limit = 50;
-$post_status = 'draft';
+$author = 3;  //configure with WordPress author by id
+$categories = array(103);   // default category or categories, again by ID
+$limit = 50;  // ho wmany stories to try to import before stopping - set to -1 for unlimited
+$post_status = 'draft';  // status for posts imported - using 'draft' is helpful for debugging
 
 /* open the json file */
 $json=file_get_contents('insta/content/posts_1.json');
