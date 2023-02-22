@@ -18,7 +18,7 @@ Notes:
 Caution: If you have anything set to publicize when you make new posts, use caution in publishing many posts at once! 
 
 TODOS:
-- Also import "stories" and "reels" 
+- Also import "reels" 
 - Make into a standalone plugin not dependent on wp-cli eval-file 
 - Enable upload of the instagram zip download directly via dashboard 
 - Configurability - author, categories, tags, whether to insert images or just attach to post, whether to include posts, reels, stories, etc.
