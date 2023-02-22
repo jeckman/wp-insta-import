@@ -8,7 +8,7 @@ Usage:
 - run "wp eval-file insta.php" in the same directory that "insta" folder is located in
 
 Notes:
-- Only imports Instagram "posts" right now (not "stories" or "reels"). 
+- Only imports Instagram "posts" and "stories" right now (not "reels"). 
 - Creates WordPress posts for Instagram posts (does not create a custom post type). 
 - Copies the media into the WP Upload directory, attaches them to the posts, sets the first attachment as the featured image (if it is an image). 
 - Puts all posts in one category. 
